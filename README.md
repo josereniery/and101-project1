@@ -35,9 +35,8 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/3E1S8Vx" data-context="false" ><a href="//imgur.com/a/3E1S8Vx"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src='imgur.com/a/3E1S8Vx' title='Video Demo' width='' alt='Video Demo' />
 
-GIF created with **your chosen GIF tool**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
