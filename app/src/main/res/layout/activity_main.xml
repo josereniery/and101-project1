@@ -19,29 +19,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/profile_image"
-                android:layout_width="@dimen/profile_image_size"
-                android:layout_height="@dimen/profile_image_size"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginTop="60dp"
-                android:src="@drawable/avatar_9"/>
-
             <TextView
                 android:id="@+id/profile_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/profile_image"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginTop="50dp"
-                tools:text="First Last"
-                android:textSize="24sp"
+                android:textAllCaps="true"
                 android:textColor="@color/black"
+                android:textSize="24sp"
                 android:textStyle="bold"
-                android:textAllCaps="true"/>
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="310dp"
+                tools:text="First Last" />
 
             <TextView
                 android:id="@+id/profile_bio"
@@ -99,6 +88,15 @@
                 android:text="@string/profile_hobby_third_text"
                 android:textSize="15sp"/>
 
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="249dp"
+                android:layout_height="267dp"
+                app:srcCompat="@drawable/avatar_7024613__340"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="26dp" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
