@@ -35,7 +35,7 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='imgur.com/a/3E1S8Vx' title='Video Demo' width='' alt='Video Demo' />
+![](https://imgur.com/a/3E1S8Vx.gif)
 
 
 <!-- Recommended tools:
